@@ -53,7 +53,17 @@
             <version>2.5</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.primefaces</groupId>
+            <artifactId>primefaces</artifactId>
+            <version>3.4.1</version>
+        </dependency>
 
+        <dependency>
+            <groupId>org.glassfish.web</groupId>
+            <artifactId>el-impl</artifactId>
+            <version>2.2</version>
+        </dependency>
     </dependencies>
     
 </project>
