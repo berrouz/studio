@@ -3,17 +3,18 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://java.sun.com/jsf/html" xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
         >
 
 <h:head>
-  h
+    <title><ui:insert name="title">Default title</ui:insert></title>
 </h:head>
-<h:body>
 
-    <h1>JSF 2.0 + Spring Example</h1>
-    <p:gmap center="41.381542, 2.122893" zoom="15" type="HYBRID"
-            style="width:600px;height:400px" />
-     <p:button></p:button>
+<h:body>
+    <div id="header">Header</div>
+    <div id="menu">Menu</div>
+    <div id="content"><ui:insert name="content">Default content</ui:insert></div>
+    <div id="footer">Footer</div>
 </h:body>
 
 </html>
