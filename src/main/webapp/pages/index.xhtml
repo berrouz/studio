@@ -1,14 +1,24 @@
 <ui:composition template="/pages/layouts/layout.xhtml"
                 xmlns="http://www.w3.org/1999/xhtml"
                 xmlns:h="http://java.sun.com/jsf/html"
-                xmlns:ui="http://java.sun.com/jsf/facelets">
+                xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:p="http://primefaces.org/ui">
 
     <ui:define name="title">
         New page title here
     </ui:define>
 
     <ui:define name="content">
-        <h1>New content here</h1>
-        <p>Blah blah</p>
+        <h2>TSM Settings</h2>
+        <p:tree>
+
+        </p:tree>
     </ui:define>
+
+    <ui:define name="footer">
+        <p>This is a computer system owned by Company.  All programs and data on this system are the property of, or licensed by Company. It is for authorised use only. Users (authorised or unauthorised) have no explicit or implicit expectation of privacy.</p>
+        <p>Any or all uses of this system and all files and data on this system may be intercepted, monitored, recorded, copied, audited, inspected, and disclosed to relevant authorities.</p>
+        <p>By using this system, the user consents to such interception, monitoring, recording, copying, auditing, inspection, and disclosure at the discretion of Company authorised personnel.</p>
+        <p>Unauthorised or improper use of this system may result in administrative disciplinary action and civil and criminal penalties. By continuing to use this system you indicate your awareness of and consent to these terms and conditions of use. LOG OFF IMMEDIATELY if you do not agree to the conditions stated in this warning.</p>
+    </ui:define>
+
 </ui:composition>
