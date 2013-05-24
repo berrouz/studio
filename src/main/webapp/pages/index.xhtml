@@ -1,17 +1,28 @@
 <ui:composition template="/pages/layouts/layout.xhtml"
                 xmlns="http://www.w3.org/1999/xhtml"
                 xmlns:h="http://java.sun.com/jsf/html"
-                xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:p="http://primefaces.org/ui">
-
+                xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:p="http://primefaces.org/ui"
+                xmlns:f="http://java.sun.com/jstl/core">
+    <ui:define name="header">
+        <div id="title">Tiny TSM configuration</div>
+    </ui:define>
     <ui:define name="title">
-        New page title here
+        Main Configuration
+    </ui:define>
+
+    <ui:define name="menu">
+        <div id="buttons">
+            <p:button value="Main" disabled="false"/>
+            <p:button value="TSM Card" disabled="false"/>
+            <p:button value="TSM Settings" disabled="false"/>
+            <p:button value="SIM Configuration" disabled="false"/>
+            <p:button value="UICC Congiguration" disabled="false"/>
+        </div>
     </ui:define>
 
     <ui:define name="content">
-        <h2>TSM Settings</h2>
-        <p:tree>
 
-        </p:tree>
+
     </ui:define>
 
     <ui:define name="footer">

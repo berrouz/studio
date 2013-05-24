@@ -7,17 +7,23 @@ body{
 #header{
     width: 100%;
     height: 15%;
-    background: aqua;
+    background: white;
 }
 
+#title{
+    padding-top:70px;
+    width:250px;
+    font-size: 24px;
+    margin: 0 auto;
+}
 #menu{
     height: 10%;
-    background: beige;
+    background: white;
 }
 
 #content{
     height: 65%;
-    background: antiquewhite;
+    background: white;
 }
 
 #footer{
@@ -25,4 +31,8 @@ body{
     font-size: 11px;
     text-align: center;
     font-family: Consolas Courier "Myriad Pro";
+}
+#buttons{
+    width: 50%;
+    margin: 0 auto;
 }
