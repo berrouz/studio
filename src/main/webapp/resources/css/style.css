@@ -5,9 +5,10 @@ body{
     border: 0px;
 }
 #header{
-    width: 100%;
+    width: 65%;
     height: 15%;
     background: white;
+    margin: 0 auto;
 }
 
 #title{
@@ -35,4 +36,18 @@ body{
 #buttons{
     width: 50%;
     margin: 0 auto;
+}
+
+#hsbcLogoDiv{
+    width: 400px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#j_idt16{
+    width: 1000px !important;
+    margin: 0 auto;
+}
+.ui-menu-list{
+    margin-left: 100px;
 }
